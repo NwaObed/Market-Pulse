@@ -2,4 +2,4 @@
 
 
 ### Data Pipeline Architecture
-![Data Pipeline Architecture](./gif/market_pulse_pipeline.gif)
+![Data Pipeline Architecture](./images/market_pulse_pipeline.png)
