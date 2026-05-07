@@ -59,7 +59,7 @@ MarketPulse Analytics is a financial services firm based in New York City specia
 > - Trading strategy optimization
 > - Market trend monitoring
 
-This project implements a scalable, real-time data engineering platform that streams live stock market data through Kafka, processes the data using Spark, stores the results in PostgreSQL, and visualizes analytics using Power BI Desktop.
+This project implements a scalable, real-time data engineering platform that streams live stock market data from an API endpoint through Kafka, processes the data using Spark, stores the results in PostgreSQL, and visualizes analytics using Power BI Desktop.
 
 ## Business Understanding
 ### Business Challenge
@@ -141,7 +141,7 @@ The final solution enables MarketPulse Analytics to:
 > - Maintain competitive advantage within the financial analytics industry
 
 ## Data Source
-[Alpha Vintage API](hhttps://rapidapi.com/alphavantage/api/alpha-vantage/playground/apiendpoint_55220bb2-8a64-4cde-89e1-87ec00947f57)
+[Alpha Vintage API](https://rapidapi.com/alphavantage/api/alpha-vantage/playground/apiendpoint_55220bb2-8a64-4cde-89e1-87ec00947f57)
 
 ## Technology Stack
 | Component	| Purpose |
