@@ -2,7 +2,7 @@
 
 
 ### Data Pipeline Architecture
-![Data Pipeline Architecture](./images/market_pulse_pipeline.png)
+![Data Pipeline Architecture](./gif/market_pulse_pipeline.gif)
 
 # Table of Contents
 
@@ -11,6 +11,7 @@
   - [Business Challenge](#business-challenge)
   - [Project Objectives](#project-objectives)
   - [Project Deliverables](#project-deliverables)
+  - [Data Source](#data-source)
 - [Architecture Overview](#architecture-overview)
 - [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
@@ -139,17 +140,20 @@ The final solution enables MarketPulse Analytics to:
 > - Scale efficiently under high market load
 > - Maintain competitive advantage within the financial analytics industry
 
+## Data Source
+[Alpha Vintage API](hhttps://rapidapi.com/alphavantage/api/alpha-vantage/playground/apiendpoint_55220bb2-8a64-4cde-89e1-87ec00947f57)
+
 ## Technology Stack
 | Component	| Purpose |
 | --- | --- | 
-| Python	| Producer application|
-| Apache Kafka	| Real-time event streaming|
+| [Python](https://www.python.org/)	| Producer application|
+| [Apache Kafka](https://kafka.apache.org/)	| Real-time event streaming|
 | Kafka UI	| Kafka topic inspection |
-| Apache Spark	| Stream processing |
-| PostgreSQL	| Analytical data storage
-| pgAdmin	| PostgreSQL management
-| Docker & Docker Compose	| Container orchestration |
-| Power BI Desktop	| Data visualization & reporting
+| [Apache Spark](https://spark.apache.org/)	| Stream processing |
+| [PostgreSQL](https://www.postgresql.org/)	| Analytical data storage
+| [pgAdmin](https://www.pgadmin.org/)	| PostgreSQL management
+| [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)	| Container orchestration |
+| [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi)	| Data visualization & reporting
 
 ## Project Structure
 
