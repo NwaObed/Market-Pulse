@@ -1,2 +1,7 @@
-mp_env
+mpvenv
 .env
+__pycache__
+test.py
+ml.py
+notes.txt
+sample.json
